@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.3.0",
   "name": "nuxt-element",
   "main": "src/index.ts",
   "author": {
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "description": "element-ui module for nuxt",
+  "description": "nuxtjs module for element-ui",
   "dependencies": {
     "element-ui": "^2.15.6",
     "path": "^0.12.7",
