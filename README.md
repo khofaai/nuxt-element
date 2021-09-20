@@ -1,8 +1,8 @@
 # nuxt-element
 
-[![npm](https://img.shields.io/npm/v/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element) ![license](https://img.shields.io/github/license/khofaai/nuxt-element.svg) [![Build Status](https://travis-ci.org/khofaai/nuxt-element.svg?branch=master)](https://travis-ci.org/khofaai/nuxt-element) [![npm](https://img.shields.io/npm/dw/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element) [![npm](https://img.shields.io/npm/dt/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element)
+[![npm](https://img.shields.io/npm/v/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element) <!-- ![license](https://img.shields.io/github/license/khofaai/nuxt-element.svg) [![Build Status](https://travis-ci.org/khofaai/nuxt-element.svg?branch=master)](https://travis-ci.org/khofaai/nuxt-element) [![npm](https://img.shields.io/npm/dw/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element) [![npm](https://img.shields.io/npm/dt/nuxt-element.svg)](https://www.npmjs.com/package/nuxt-element) -->
 
-nuxtjs module for element-ui
+Element UI Module for Nuxt.js to add element-ui components to your application.
 
 ## Usage
 
@@ -13,13 +13,13 @@ You need to install `nuxt-element` first using
 npm i nuxt-element
 ```
 
-of *yarn*
+or *yarn*
 
 ```bash
 yarn add nuxt-element
 ```
 
-then inside `nuxt.config.js` under `modules` property you need to add `nuxt-element` as:
+then inside `nuxt.config.js` under `modules` property you need to add `nuxt-element` like:
 
 ```js
 ...
