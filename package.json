@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "name": "nuxt-element",
+  "main": "src/index.ts",
+  "author": {
+    "name": "Anas El Alami",
+    "url": "https://github.com/khofaai"
+  },
+  "description": "element-ui module for nuxt",
+  "dependencies": {
+    "element-ui": "^2.15.6",
+    "path": "^0.12.7",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.4",
+    "@types/webpack-env": "^1.16.2"
+  }
+}
