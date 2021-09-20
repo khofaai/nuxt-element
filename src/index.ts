@@ -8,12 +8,11 @@ const elementUi = function(this: any, moduleOptions: any) {
   Vue.use(ElementUI, options)
 
   this.addPlugin({
-    src: path.resolve(__dirname, './elementUi.ts'),
+    src: path.resolve(__dirname, './plugin.ts'),
     options,
   });
 }
 
 export default elementUi;
 
-// REQUIRED if publishing the module as npm package
-// module.exports.meta = require('./package.json')
+module.exports.meta = require('../package.json')

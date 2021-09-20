@@ -6,10 +6,14 @@
     "name": "Anas El Alami",
     "url": "https://github.com/khofaai"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "description": "element-ui module for nuxt",
   "dependencies": {
     "element-ui": "^2.15.6",
     "path": "^0.12.7",
+    "typescript": "^4.4.3",
     "vue": "^2.6.14"
   },
   "devDependencies": {
